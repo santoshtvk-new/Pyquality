@@ -1,0 +1,13 @@
+/src/pyquality/__pycache__
+/src/pyquality/domains/__pycache__
+__pycache__/
+*.pyc
+
+# Local testing
+test_*.py
+demo.py
+
+# Build / Pip package
+dist/
+build/
+*.egg-info/

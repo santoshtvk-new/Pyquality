@@ -1,0 +1,90 @@
+# Method Aliases Configuration
+# Format:
+# internal_method_name:
+#   - kid_friendly_alias_1
+#   - kid_friendly_alias_2
+
+navigation:
+  navigate:
+    - go_to
+    - open_website
+  reload:
+    - refresh
+    - reload_page
+  close:
+    - close_browser
+    - bye
+  go_back:
+    - step_back
+    - previous_page
+  go_forward:
+    - step_forward
+    - next_page
+
+interaction:
+  click_element:
+    - click_this
+    - tap
+  type_text:
+    - type_in
+    - write_this
+  hover_element:
+    - point_at
+    - hover_over
+
+discovery:
+  wait_for_selector:
+    - wait_for
+    - wait_until_i_see
+  find_element:
+    - find
+    - get_this
+  get_title:
+    - what_is_the_title
+  get_url:
+    - what_is_the_url
+
+validation:
+  assert_visible:
+    - is_it_visible
+    - should_be_seen
+  assert_text:
+    - does_it_say
+    - check_text
+
+advanced:
+  take_screenshot:
+    - snap_picture
+    - cheese
+  get_network_logs:
+    - what_happened_in_network
+  get_accessibility_tree:
+    - check_accessibility
+    - is_it_accessible
+  act_like_phone:
+    - pretend_to_be_phone
+    - use_mobile
+  clear_cookies:
+    - forget_me
+    - delete_cookies
+  set_location:
+    - pretend_i_am_here
+    - fake_gps
+
+api:
+  use_token:
+    - login_with
+    - secret_key
+  get:
+    - fetch_data
+    - grab
+  post:
+    - create_data
+    - send_new
+  put:
+    - update_data
+  delete:
+    - remove_data
+  should_be_status:
+    - check_status
+    - did_it_succeed
