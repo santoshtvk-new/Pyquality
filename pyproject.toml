@@ -3,14 +3,14 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pyquality"
+name = "py4quality"
 version = "0.1.0"
 description = "A highly user-friendly, kid-friendly automation framework using Chrome DevTools Protocol (CDP)."
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
 authors = [
-  { name="Author Name" }
+  { name="Venkata Santosh Tharigoppala" }
 ]
 dependencies = [
     "websocket-client>=1.6.1",
@@ -18,5 +18,5 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/yourusername/pyquality"
-"Bug Tracker" = "https://github.com/yourusername/pyquality/issues"
+"Homepage" = "https://github.com/santoshtvk-new/Pyquality"
+"Bug Tracker" = "https://github.com/santoshtvk-new/Pyquality/issues"

@@ -11,7 +11,7 @@ Under the hood, it retains uncompromising power. Advanced users have **unfiltere
 ## 🚀 Installation (Source)
 If you are developing locally:
 ```bash
-git clone https://github.com/yourusername/pyquality.git
+git clone https://github.com/santoshtvk-new/Pyquality.git
 cd pyquality
 pip install -e .
 ```
@@ -19,7 +19,7 @@ pip install -e .
 ## 🛠️ Installation (PIP)
 *(When published to PyPi)*
 ```bash
-pip install pyquality
+pip install py4quality
 ```
 
 ---
